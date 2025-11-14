@@ -23,7 +23,9 @@ The repository contains the full inference pipeline, sample code, and instructio
 ### Create a virtual environment (recommended):
 
 python -m venv venv
+
 source venv/bin/activate   # Linux/Mac
+
 venv\Scripts\activate      # Windows
 
 
@@ -36,17 +38,29 @@ pip install -r requirements.txt
 ## Project Structure
 PPE-Detection
 │
+
 ├── Detector
+
 │   ├── main.py
+
 │   ├── model/
+
 │   │   └── fine_tuned_model.pt
+
 │   └── videos/
+
 │       └── sample_video.mp4
+
 │
+
 ├── Finetune
+
 │   └── finetune.ipynb
+
 │
+
 ├── requirements.txt
+
 └── README.md
 
 
