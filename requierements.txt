@@ -1,0 +1,18 @@
+# PPE Detection Packages
+
+cvzone
+ultralytics
+hydra-core
+matplotlib
+opencv-python
+pillow
+pyYAML
+requests
+scipy
+torch
+torchvision
+tqdm
+filterpy
+scikit-image
+lap
+numpy
