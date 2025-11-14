@@ -35,26 +35,6 @@ pip install -r requirements.txt
 
 
 
-## Project Structure
-PPE-Detection
-│
-├── Detector
-
-│   ├── main.py
-│   ├── model/
-│   │   └── fine_tuned_model.pt
-│   └── videos/
-│       └── sample_video.mp4
-
-│
-├── Finetune
-│   └── finetune.ipynb
-│
-├── requirements.txt
-└── README.md
-
-
-
 ## Model Training
 
 This project uses a custom fine-tuned YOLO model.
