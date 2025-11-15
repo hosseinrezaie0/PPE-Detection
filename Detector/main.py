@@ -1,8 +1,6 @@
-from torch.fx.experimental.migrate_gradual_types.constraint_transformation import register_transformation_rule
 from ultralytics import YOLO
 import cv2
 import cvzone
-import numpy as np
 
 data_path = "videos/sample_video.mp4"
 model_path = "model/fine_tuned_model.pt"
@@ -109,6 +107,7 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
 
 
